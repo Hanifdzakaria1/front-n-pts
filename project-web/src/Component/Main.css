@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul{
+    margin-top: 0px;
+    background-color: black;
+    text-align: center;
+    justify-items: center;
+}
+
+.judul h1{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    justify-items: center;
+}
+
+.judul h4{
+    color: white;
+} 
+
+.judul a{
+    color: blue;
+}
+
+.imgjudul{
+    width: 700px;
+    height: 300px;
+}
+
+.juduldul{
+    background-color: white;
+    text-align: center;
+    justify-items: center;
+}
+
+.juduldul a{
+    color: blue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    /* margin-top: 0px; */
+}
+
+.gambar {
+    overflow: hidden;
+}
+
+.container div img{
+    object-fit: cover;
+    margin-left: 15px;
+    width: 95%;
+    height: 100%;
+}
+
+
+.bar1 {
+    color: black;
+    margin-left: 190px;
+    text-align: center;
+    justify-items: center;
+    font-size: small;
+    position: absolute;
+}
+
+.a{
+    color: blue;
+}
+
+.bar1 h4{
+    color: black;
+    text-align: center;
+    justify-items: center;
+}
+
+.bar2 {
+    color: black;
+    margin-left: 230px;
+    text-align: center;
+    justify-items: center;
+    font-size: small;
+    position: absolute;
+}
+
+.bar3 {
+    color: black;
+    margin-left: 190px;
+    text-align: center;
+    justify-items: center;
+    font-size: small;
+    position: absolute;
+}
+
+.bar4 {
+    color: black;
+    margin-left: 230px;
+    text-align: center;
+    justify-items: center;
+    font-size: small;
+    position: absolute;
+}
+
+.bar5{
+    color: black;
+    margin-left: 210px;
+    text-align: center;
+    justify-items: center;
+    font-size: small;
+    position: absolute;
+}
+
+.bar6 {
+    color: black;
+    margin-left: 237px;
+    text-align: center;
+    justify-items: center;
+    font-size: tall;
+    position: absolute;
+}
+
+.gambar1{
+    margin-top: 50px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.gambar2{
+    margin-top: 50px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.gambar3 {
+    margin-top: 50px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.gambar4 {
+    margin-top: 50px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.gambar5 {
+    margin-top: 50px;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.gambar6 {
+    margin-top: 50px;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}

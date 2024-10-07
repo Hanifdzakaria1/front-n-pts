@@ -1,0 +1,30 @@
+img{
+    height: 40%;
+    width: 40%;
+}
+
+.san {
+    /* position: relative; */
+    margin-left: 200px;
+    margin-top: 80px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.dan {
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 80px;
+}
+
+.dan p {
+    font-size: 30px;
+}
+
+.dan h1{
+    font-size: 70px;
+}
+
+.san h1{
+    position: absolute;
+}

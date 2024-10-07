@@ -1,0 +1,19 @@
+.hb img{
+    margin-top: 65px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.p h1{
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: larger;
+}
+
+.p p{
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}

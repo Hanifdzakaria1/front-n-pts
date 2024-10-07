@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+.m1{
+    text-align: center;
+}
+
+.m2 img{
+    margin-top: 0px;
+    width: 45%;
+    height: 45%;
+}
+
+.m2{
+    text-align: center;
+}
+
+
+.mm{
+    width: 60px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    gap: 20px;
+}
+
+.h {
+    font-size: 60px;
+}
+
